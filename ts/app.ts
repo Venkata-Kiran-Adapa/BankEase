@@ -108,6 +108,3 @@ btnLogin.addEventListener('click',(e:Event)=>{
 
 
 export const accounts= [account1, account2, account3, account4,account5,account6,account7,account8];
-
-
-console.log("nasjbdbsad")
