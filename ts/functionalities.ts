@@ -8,7 +8,7 @@ let currentAccount:buttons.userInfo | undefined
 //  Transfer Amount functionality
 export function trasnferAmount(currentAccount:buttons.userInfo){
   const usrname=buttons.accounts.find( acc=> acc.username === buttons.inputTransferTo.value.toLowerCase())
-  let evaluate:boolean=true;
+  let evaluate:boolean=false;
   if(usrname){
   evaluate=usrname!.username===currentAccount.username;
   }
