@@ -18,7 +18,7 @@ export function updateInterface(currentAccount:buttons.userInfo){
     //DisplayingDate
     displayDate();
    
-    //Timer of 10mins
+    //Timer of 5 mins
     timer();
 
    // Sort Button
